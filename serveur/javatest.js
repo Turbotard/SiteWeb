@@ -16,14 +16,24 @@ async function recuptout() {
   return users
 }
 
-// à corriger
+
 async function ajouteruser(nom, age){
   const users = await sql`
   insert into table_test (nom, age)
   values
-  ($"{nom}, {age}")
+  (${ nom }, ${ age })
   `
 return users
 }
-const resultat = await ajouteruser("Paul",22)
+
+async function enleveruser(id){
+  const users = await sql `
+  delete from table_test
+  where id = ${ id }
+  
+  `
+return users
+
+}
+const resultat = await enleveruser(6)
 console.log(resultat)
