@@ -18,7 +18,6 @@ const con = mysql.createConnection({
      });
  });
 
- let nom = "amin";
- alert(nom);//modification
+
 
 
