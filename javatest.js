@@ -19,6 +19,6 @@ const con = mysql.createConnection({
  });
 
  let nom = "amin";
- alert(nom);//modif
+ alert(nom);//modification
 
 
