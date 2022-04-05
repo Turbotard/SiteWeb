@@ -16,5 +16,14 @@ async function recuptout() {
   return users
 }
 
-const resultat = await recuptout()
+// à corriger
+async function ajouteruser(nom, age){
+  const users = await sql`
+  insert into table_test (nom, age)
+  values
+  ($"{nom}, {age}")
+  `
+return users
+}
+const resultat = await ajouteruser("Paul",22)
 console.log(resultat)
