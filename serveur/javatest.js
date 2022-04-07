@@ -12,7 +12,7 @@ async function recuptout() {
   const users = await sql`
     select * from table_test
   `
-  // users = Result [{ name: "Murray", age: 68 }]
+  // users = 
   return users
 }
 
@@ -35,5 +35,3 @@ async function enleveruser(id){
 return users
 
 }
-const resultat = await enleveruser(6)
-console.log(resultat)
