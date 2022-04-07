@@ -15,3 +15,5 @@ function myFunction() {
 
   }
 }
+let nom = "oui"
+alert(nom);
