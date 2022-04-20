@@ -1,3 +1,3 @@
 
-let nom = "Amin le BG le sang";
+let nom = "oui";
 alert(nom);
