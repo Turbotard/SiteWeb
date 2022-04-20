@@ -5,3 +5,12 @@
     color: white;
     font-size: 30px;
   }
+.firstline {
+    text-align: center;
+}
+.logo {
+    background-image: url(logo);
+    width: 80px;
+    height: 40px;
+    padding: 0;
+  }
