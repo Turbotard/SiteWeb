@@ -1,17 +1,18 @@
+
 .header {
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 30px;
-    top: 0;
-  }
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  top: 0;
+}
 .firstline {
-    text-align: center;
+  text-align: center;
 }
 .logo {
-    background-image: url(logo.jpg);
-    width: 80px;
-    height: 40px;
-    padding: 0;
-  }
+  background-image: url(logo.jpg);
+  width: 80px;
+  height: 40px;
+  padding: 0;
+}
